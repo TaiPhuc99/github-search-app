@@ -14,7 +14,6 @@ export default function UserSearch() {
       setAlert("Please fill something");
     } else {
       handleSearchUser(text);
-
       setText("");
     }
   };
